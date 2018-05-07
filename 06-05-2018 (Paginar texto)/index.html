@@ -7,17 +7,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
 </head>
-<body>
+<body onkeydown="keyPress(event)">
     <div class="container">
-        <div class="title">
-            Titulo <span class="comentario">(asdasdsad)</span>
-        </div>
+        <div class="title"></div>
         <div class="content">
             <div class="columna"></div>
             <div class="columna"></div>
         </div>
         <div class="footer">
-            <a href="#" id="next" onclick="next()">Proxima noticia</a>
+            <a href="#" id="next" onclick="next()">Proxima página</a>
+            <a href="#" id="back" onclick="back()">Página anterior</a>
         </div>
     </div>
     <script src="js/script.js"></script>

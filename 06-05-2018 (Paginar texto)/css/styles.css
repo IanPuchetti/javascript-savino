@@ -1,0 +1,64 @@
+
+@font-face {
+    font-family: "fontNuevo";
+    src: url(../fonts/fonts.ttf);
+}
+
+.container{
+    margin:10px;
+    margin-left:50px;
+}
+
+.title{
+    font-size:100px;
+    text-align:center;
+    font-family: "fontNuevo";
+}
+
+.comentario{
+    color: #999999;
+}
+
+.content{
+    padding:5px;
+    text-align:center;
+}
+
+.content div{
+    padding:20px;
+    width:45%;
+    display:inline-block;
+    background:white;
+    vertical-align: text-top;
+}
+
+.footer{
+    width:90%;
+    text-align:right;
+    font-family: "fontNuevo";
+    font-size:50px;
+    position:fixed;
+    bottom:75px;
+}
+
+.footer a{
+    margin-bottom:0px;
+}
+
+a{
+    color: #999999;
+}
+
+a:hover{
+    color: #353535;
+}
+
+#back{
+    position:absolute;
+    left:0px;
+}
+
+#next{
+    position:absolute;
+    right:0px;
+}
